@@ -1,8 +1,24 @@
 import { makeStyles } from "@material-ui/core/styles";
 import image2 from "../img/fondo2.jpg";
-import Typography from "@material-ui/core/Typography";
+//import Typography from "@material-ui/core/Typography";
 
 export default makeStyles((theme) => ({
+  props: {
+    MuiTypography: {
+      variantMapping: {
+        h1: "h2",
+        h2: "h2",
+        h3: "h2",
+        h4: "h2",
+        h5: "h2",
+        h6: "h2",
+        subtitle1: "h2",
+        subtitle2: "h2",
+        body1: "span",
+        body2: "span",
+      },
+    },
+  },
   root: {
     display: "flex",
     position: "fixed",
@@ -68,7 +84,6 @@ export default makeStyles((theme) => ({
   },
   text: {
     color: "white",
-    padding: "159px 3px",
     display: "flex",
     padding: "150px",
     flexDirection: "column",

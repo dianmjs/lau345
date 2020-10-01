@@ -17,7 +17,6 @@ const Header = (props) => {
         <Grid item xs={12} sm={12} md={12}>
           <AppBar
             className={classes.appBar}
-            className={classes.borderheader}
             style={{ backgroundColor: "#0000004f", boxShadow: "0 0 black" }}
           >
             <Toolbar>

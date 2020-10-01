@@ -23,7 +23,14 @@ const Products = (props) => {
             variant="h6"
             color="initial"
             align="center"
-            className={classes.texProduct}
+            //className={classes.texProduct}
+            style={{
+              color: "black",
+              fontSize: "48px",
+              marginTop: "-66px",
+              letterSpacing: "6px",
+              padding: "18px",
+            }}
           >
             Suplementación Inteligente
           </Typography>
@@ -42,7 +49,6 @@ const Products = (props) => {
                 height="140"
                 style={{
                   width: "151px",
-                  display: "inline",
                   display: "inline",
                   borderRadius: "16px",
                 }}

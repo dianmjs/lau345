@@ -16,24 +16,34 @@ const Training = (props) => {
         <Grid item xs={12}>
           <Typography
             variant="h6"
-            color="initial"
             align="center"
-            paragraph
-            className={classes.textTraining}
+            //className={classes.textTraining}
+            style={{
+              color: "white",
+              fontSize: "48px",
+              marginTop: "-66px",
+              letterSpacing: "6px",
+            }}
           >
             Transformando vidas
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
           <div className={classes.contetesti}>
-            <img src={Test1} alt="" className={classes.circulo} id="animado" />
+            <img
+              src={Test1}
+              alt="circulo"
+              className={classes.circulo}
+              id="animado"
+            />
             <br />
-            <img src={comillas} alt className={classes.comill} />
+            <img src={comillas} alt="comillas" className={classes.comill} />
 
             <Typography
               variant="subtitle1"
-              className={classes.test1}
+              //className={classes.test1}
               align="center"
+              style={{ fontSize: "13px", color: "white" }}
             >
               Hace unos meses atrás me presentaron a Laura cómo entrenadora, una
               mujer que respeto, y me ha guiado en este trasegar que me presenta
@@ -55,13 +65,14 @@ const Training = (props) => {
 
         <Grid item xs={12} sm={6} md={6} lg={3}>
           <div className={classes.contetesti}>
-            <img src={Test2} alt="" className={classes.circulo} />
+            <img src={Test2} alt="circulo" className={classes.circulo} />
             <br />
-            <img src={comillas} alt className={classes.comill} />
+            <img src={comillas} alt="comilla" className={classes.comill} />
             <Typography
               variant="subtitle1"
               color="initial"
-              className={classes.test1}
+              //className={classes.test1}
+              style={{ fontSize: "13px", color: "white" }}
               align="center"
             >
               Un día desperté y tome la decisión de mejorar mis hábitos, así que
@@ -81,14 +92,15 @@ const Training = (props) => {
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
           <div className={classes.contetesti}>
-            <img src={Test3} alt="" className={classes.circulo} />
+            <img src={Test3} alt="circulo" className={classes.circulo} />
 
             <br />
-            <img src={comillas} alt className={classes.comill} />
+            <img src={comillas} alt="comillas" className={classes.comill} />
             <Typography
               variant="subtitle1"
               color="initial"
-              className={classes.test1}
+              // className={classes.test1}
+              style={{ fontSize: "13px", color: "white" }}
               align="center"
             >
               Nada más importante que entrenar con el apoyo de personas que
@@ -106,13 +118,14 @@ const Training = (props) => {
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
           <div className={classes.contetesti}>
-            <img src={Test4} alt="" className={classes.circulo} />
+            <img src={Test4} alt="circulo" className={classes.circulo} />
 
             <br />
-            <img src={comillas} alt className={classes.comill} />
+            <img src={comillas} alt="comillas" className={classes.comill} />
             <Typography
               variant="subtitle1"
-              className={classes.test1}
+              //className={classes.test1}
+              style={{ fontSize: "13px", color: "white" }}
               align="center"
             >
               Laura ha logrado realizar cambios maravillosos en mi. Te guía, te
