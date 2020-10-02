@@ -171,14 +171,14 @@ export default makeStyles((theme) => ({
   },
 
   contetesti: {
-    display: "grid",
+    display: "initial",
     texAling: "center",
     position: "relative",
     margin: "31px",
     width: "40%",
-    ["@media (max-width: 600px)"]: {
+    /*["@media (max-width: 600px)"]: {
       padding: "0 135px",
-    },
+    },*/
   },
 
   circulo: {
@@ -190,10 +190,10 @@ export default makeStyles((theme) => ({
     marginTop: "19px",
     borderStyle: "groove",
 
-    ["@media (max-width: 599px)"]: {
+    /*["@media (max-width: 599px)"]: {
       width: "150px",
       height: "150px",
-    },
+    },*/
   },
   divider: {
     width: "40%",
@@ -250,7 +250,6 @@ export default makeStyles((theme) => ({
   comill: {
     width: "20px",
     height: "20px",
-    padding: "11px",
-    margin: "2px 75px",
+    margin: " -23px 75px",
   },
 }));

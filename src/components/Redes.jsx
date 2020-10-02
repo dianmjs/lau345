@@ -11,14 +11,22 @@ const Redes = (props) => {
     <Grid container>
       <Grid item xs={12}>
         <div className={classes.redes}>
-          <a href="https://www.instagram.com/laugultratrainer/" target="_blank">
+          <a
+            href="https://www.instagram.com/laugultratrainer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <InstagramIcon
               fontSize="large"
               className={classes.instagram}
               style={{ width: "40px", height: "40px" }}
             />
           </a>
-          <a href="https://wa.link/hgj4iv" target="_blank">
+          <a
+            href="https://wa.link/hgj4iv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <WhatsAppIcon
               fontSize="large"
               className={classes.whatsap}

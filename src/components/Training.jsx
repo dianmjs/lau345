@@ -43,7 +43,11 @@ const Training = (props) => {
               variant="subtitle1"
               //className={classes.test1}
               align="center"
-              style={{ fontSize: "13px", color: "white" }}
+              style={{
+                fontSize: "12px",
+                color: "white",
+                margin: "inherit",
+              }}
             >
               Hace unos meses atrás me presentaron a Laura cómo entrenadora, una
               mujer que respeto, y me ha guiado en este trasegar que me presenta
@@ -72,7 +76,11 @@ const Training = (props) => {
               variant="subtitle1"
               color="initial"
               //className={classes.test1}
-              style={{ fontSize: "13px", color: "white" }}
+              style={{
+                fontSize: "12px",
+                color: "white",
+                margin: "inherit",
+              }}
               align="center"
             >
               Un día desperté y tome la decisión de mejorar mis hábitos, así que
@@ -100,7 +108,11 @@ const Training = (props) => {
               variant="subtitle1"
               color="initial"
               // className={classes.test1}
-              style={{ fontSize: "13px", color: "white" }}
+              style={{
+                fontSize: "12px",
+                color: "white",
+                margin: "inherit",
+              }}
               align="center"
             >
               Nada más importante que entrenar con el apoyo de personas que
@@ -125,7 +137,11 @@ const Training = (props) => {
             <Typography
               variant="subtitle1"
               //className={classes.test1}
-              style={{ fontSize: "13px", color: "white" }}
+              style={{
+                fontSize: "12px",
+                color: "white",
+                margin: "inherit",
+              }}
               align="center"
             >
               Laura ha logrado realizar cambios maravillosos en mi. Te guía, te

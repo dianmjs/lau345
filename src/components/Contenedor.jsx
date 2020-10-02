@@ -21,13 +21,16 @@ const Contenedor = (props) => {
       <Hidden smUp>
         <Cajon variant="temporary" open={abrir} onClose={accionAbrir} />
       </Hidden>
-      <a name="home" href="home" />
-      <Home />
+      <a name="home" href="home" style={{ textDecoration: "none" }}>
+        <Home />
+      </a>
       <Redes />
-      <a name="training" href="training" />
-      <Training />
-      <a name="products" href="products" />
-      <Products />
+      <a name="training" href="training" style={{ textDecoration: "none" }}>
+        <Training />
+      </a>
+      <a name="products" href="products" style={{ textDecoration: "none" }}>
+        <Products />
+      </a>
       <Footer />
     </div>
   );
