@@ -21,7 +21,7 @@ const Training = (props) => {
             style={{
               color: "white",
               fontSize: "48px",
-              marginTop: "-66px",
+              marginTop: "37px",
               letterSpacing: "6px",
             }}
           >
@@ -60,6 +60,7 @@ const Training = (props) => {
               style={{
                 color: "white",
                 fontFamily: "revert",
+                margin: "26px",
               }}
             >
               - Catalina lópez
@@ -92,7 +93,7 @@ const Training = (props) => {
             <Typography
               variant="subtitle2"
               align="center"
-              style={{ color: "white", fontFamily: "revert" }}
+              style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Paula Alzate
             </Typography>
@@ -122,7 +123,7 @@ const Training = (props) => {
             <Typography
               variant="subtitle2"
               align="center"
-              style={{ color: "white", fontFamily: "revert" }}
+              style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Alejandro Suárez
             </Typography>
@@ -152,7 +153,7 @@ const Training = (props) => {
             <Typography
               variant="subtitle2"
               align="center"
-              style={{ color: "white", fontFamily: "revert" }}
+              style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Guido Herrera
             </Typography>

@@ -19,11 +19,7 @@ const Lits = (props) => {
             <ListItemText
               disableTypography
               primary={
-                <Typography
-                  type="body1"
-                  style={{ fontFamily: "cursive" }}
-                  className={classes.colortext}
-                >
+                <Typography type="body1" className={classes.colortext}>
                   Inicio
                 </Typography>
               }
@@ -36,11 +32,7 @@ const Lits = (props) => {
             <ListItemText
               disableTypography
               primary={
-                <Typography
-                  type="body1"
-                  style={{ fontFamily: "cursive" }}
-                  className={classes.colortext}
-                >
+                <Typography type="body1" className={classes.colortext}>
                   Testimonios
                 </Typography>
               }
@@ -53,11 +45,7 @@ const Lits = (props) => {
             <ListItemText
               disableTypography
               primary={
-                <Typography
-                  type="body1"
-                  style={{ fontFamily: "cursive" }}
-                  className={classes.colortext}
-                >
+                <Typography type="body1" className={classes.colortext}>
                   Productos
                 </Typography>
               }

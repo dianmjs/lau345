@@ -116,7 +116,6 @@ export default makeStyles((theme) => ({
     display: "flex",
     textAlign: "center",
     backgroundColor: "#f6f6f6",
-    padding: "120px 0",
   },
   cardproduct: {
     maxWidth: 345,
@@ -158,7 +157,7 @@ export default makeStyles((theme) => ({
     height: "100%",
     display: "flex",
     textAlign: "center",
-    padding: "120px 0",
+    //padding: "120px 0",
   },
   large: {
     margin: theme.spacing(1),
@@ -188,7 +187,7 @@ export default makeStyles((theme) => ({
     display: "block",
     margin: "auto",
     marginTop: "19px",
-    borderStyle: "groove",
+    border: "4px solid white",
 
     /*["@media (max-width: 599px)"]: {
       width: "150px",

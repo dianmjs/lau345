@@ -27,7 +27,7 @@ const Products = (props) => {
             style={{
               color: "black",
               fontSize: "48px",
-              marginTop: "-66px",
+              marginTop: "7px",
               letterSpacing: "6px",
               padding: "18px",
             }}
