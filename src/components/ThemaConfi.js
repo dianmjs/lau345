@@ -63,12 +63,13 @@ export default makeStyles((theme) => ({
 
   content: {
     width: "100%",
-    height: "90vh",
+    height: "97vh",
     backgroundImage: `url(${image2})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundColor: "rgb(100,100,100)",
     backgroundBlendMode: "soft-light",
+    backgroundPosition: "center center",
     "@media (max-width:600px)": {
       width: "100%",
     },
@@ -207,7 +208,7 @@ export default makeStyles((theme) => ({
     textAlign: "center",
     padding: "1.5em 02",
     width: "100%",
-    height: "47px",
+    height: "100%",
     lineHeight: "2.7em",
   },
   colortext: {
@@ -250,5 +251,9 @@ export default makeStyles((theme) => ({
     width: "20px",
     height: "20px",
     margin: " -23px 75px",
+  },
+  contenedor: {
+    width: "100%",
+    heigth: "100%",
   },
 }));

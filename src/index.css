@@ -10,13 +10,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*width: 100%;*/
+  min-height: 100%;
+  height: auto !important;
+  /*height: 100%;*/
 }
 body::-webkit-scrollbar {
-  width: 14px;
+  width: 12px;
 }
 body::-webkit-scrollbar-thumb {
   background: #ff7e67;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
 code {

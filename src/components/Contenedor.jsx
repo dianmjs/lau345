@@ -16,7 +16,7 @@ const Contenedor = (props) => {
   };
 
   return (
-    <div>
+    <div className="contenedor">
       <Header accionAbrir={accionAbrir} />
       <Hidden smUp>
         <Cajon variant="temporary" open={abrir} onClose={accionAbrir} />
