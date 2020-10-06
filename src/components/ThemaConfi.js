@@ -206,7 +206,7 @@ export default makeStyles((theme) => ({
     height: "100%",
     lineHeight: "2.7em",
     "@media (max-width:600px)": {
-      width: "100%",
+      width: "152%",
     },
   },
   letterfooter: {
