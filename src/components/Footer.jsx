@@ -5,10 +5,12 @@ const Footer = () => {
   const classes = useStyle();
   return (
     <div className={classes.footer}>
-      Copyright © 2020- Diseño Web realizado por
-      <span>
-        <b> | Diana Jaramillo</b>
-      </span>
+      <div className={classes.letterfooter}>
+        Copyright © 2020- Diseño Web realizado por
+        <span>
+          <b> | Diana Jaramillo</b>
+        </span>
+      </div>
     </div>
   );
 };

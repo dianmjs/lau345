@@ -13,14 +13,14 @@ const Training = (props) => {
   return (
     <div className={classes.testimonios}>
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography
             variant="h6"
             align="center"
             //className={classes.textTraining}
             style={{
               color: "white",
-              fontSize: "48px",
+              fontSize: "45px",
               marginTop: "37px",
               letterSpacing: "6px",
             }}

@@ -1,24 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles";
 import image2 from "../img/fondo2.jpg";
-//import Typography from "@material-ui/core/Typography";
 
 export default makeStyles((theme) => ({
-  props: {
-    MuiTypography: {
-      variantMapping: {
-        h1: "h2",
-        h2: "h2",
-        h3: "h2",
-        h4: "h2",
-        h5: "h2",
-        h6: "h2",
-        subtitle1: "h2",
-        subtitle2: "h2",
-        body1: "span",
-        body2: "span",
-      },
-    },
-  },
   root: {
     display: "flex",
     position: "fixed",
@@ -71,7 +54,7 @@ export default makeStyles((theme) => ({
     backgroundBlendMode: "soft-light",
     backgroundPosition: "center center",
     "@media (max-width:600px)": {
-      width: "100%",
+      width: "152%",
     },
   },
 
@@ -88,11 +71,16 @@ export default makeStyles((theme) => ({
     display: "flex",
     padding: "150px",
     flexDirection: "column",
-    "@media (max-width:600px)": {
-      fontSize: "15px",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "12px",
     },
   },
 
+  textlau: {
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "11px",
+    },
+  },
   parraf: {
     fontSize: "90px",
     "@media (min-width:600px)": {
@@ -114,9 +102,13 @@ export default makeStyles((theme) => ({
     },
   },
   products: {
+    width: "100%",
     display: "flex",
     textAlign: "center",
     backgroundColor: "#f6f6f6",
+    "@media (max-width:600px)": {
+      width: "152%",
+    },
   },
   cardproduct: {
     maxWidth: 345,
@@ -159,6 +151,9 @@ export default makeStyles((theme) => ({
     display: "flex",
     textAlign: "center",
     //padding: "120px 0",
+    "@media (max-width:600px)": {
+      width: "152%",
+    },
   },
   large: {
     margin: theme.spacing(1),
@@ -210,6 +205,15 @@ export default makeStyles((theme) => ({
     width: "100%",
     height: "100%",
     lineHeight: "2.7em",
+    "@media (max-width:600px)": {
+      width: "100%",
+    },
+  },
+  letterfooter: {
+    fontSize: "17px",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "11px",
+    },
   },
   colortext: {
     "&:hover": {
