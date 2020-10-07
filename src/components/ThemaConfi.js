@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     position: "fixed",
     width: "100%",
-    zIndex: "1000",
+    zIndex: "100",
   },
   menuButton: {
     marginRight: theme.spacing(2),

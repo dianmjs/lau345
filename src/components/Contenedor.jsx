@@ -14,21 +14,39 @@ const Contenedor = (props) => {
   const accionAbrir = () => {
     setAbrir(!abrir);
   };
-
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("esto fue clickeado");
+  };
   return (
     <div className="contenedor">
       <Header accionAbrir={accionAbrir} />
       <Hidden smUp>
         <Cajon variant="temporary" open={abrir} onClose={accionAbrir} />
       </Hidden>
-      <a name="home" href="home" style={{ textDecoration: "none" }}>
+      <a
+        name="home"
+        href="home"
+        style={{ textDecoration: "none" }}
+        onClick={handleClick}
+      >
         <Home />
       </a>
       <Redes />
-      <a name="training" href="training" style={{ textDecoration: "none" }}>
+      <a
+        name="training"
+        href="training"
+        style={{ textDecoration: "none" }}
+        onClick={handleClick}
+      >
         <Training />
       </a>
-      <a name="products" href="products" style={{ textDecoration: "none" }}>
+      <a
+        name="products"
+        href="products"
+        style={{ textDecoration: "none" }}
+        onClick={handleClick}
+      >
         <Products />
       </a>
       <Footer />

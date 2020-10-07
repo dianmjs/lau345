@@ -7,7 +7,7 @@ const Home = (props) => {
   const classes = useStyle();
   return (
     <Grid container>
-      <section className={classes.content}>
+      <div className={classes.content}>
         <Grid item xs={6} sm={6} md={6} lg={6}>
           <div className={classes.text}>
             <Typography
@@ -44,7 +44,7 @@ const Home = (props) => {
             </Hidden>
           </div>
         </Grid>
-      </section>
+      </div>
     </Grid>
   );
 };

@@ -17,10 +17,9 @@ const Training = (props) => {
           <Typography
             variant="h6"
             align="center"
-            //className={classes.textTraining}
             style={{
               color: "white",
-              fontSize: "45px",
+              fontSize: "48px",
               marginTop: "37px",
               letterSpacing: "6px",
             }}

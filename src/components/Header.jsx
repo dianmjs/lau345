@@ -13,8 +13,8 @@ const Header = (props) => {
 
   return (
     <Grid container>
-      <div className={classes.root}>
-        <Grid item xs={12} sm={12} md={12}>
+      <Grid item xs={12} sm={12} md={12}>
+        <div className={classes.root}>
           <AppBar
             className={classes.appBar}
             style={{ backgroundColor: "#0000004f", boxShadow: "0 0 black" }}
@@ -80,8 +80,8 @@ const Header = (props) => {
               </Hidden>
             </Toolbar>
           </AppBar>
-        </Grid>
-      </div>
+        </div>
+      </Grid>
     </Grid>
   );
 };
