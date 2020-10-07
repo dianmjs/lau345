@@ -55,9 +55,9 @@ export default makeStyles((theme) => ({
     backgroundBlendMode: "soft-light",
     backgroundPosition: "center center",
     backgroundAttachment: "fixed",
-    /* "@media only screen and (max-width:767px)": {
-      backgroundImage: `url(${foto2})`,
-    },*/
+    "@media only screen and (max-width:767px)": {
+      width: "152%",
+    },
   },
 
   img1: {
