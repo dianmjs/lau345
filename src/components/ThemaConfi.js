@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 import image2 from "../img/fondo2.jpg";
+//import foto2 from "../img/fondo2.1.jpg";
 
 export default makeStyles((theme) => ({
   root: {
@@ -35,7 +36,7 @@ export default makeStyles((theme) => ({
     flexGrow: 1,
   },
   navbar: {
-    marginRight: theme.spacing(3),
+    marginRight: theme.spacing(1),
     "&:hover": {
       color: "#ff7e67",
     },
@@ -53,9 +54,10 @@ export default makeStyles((theme) => ({
     backgroundColor: "rgb(100,100,100)",
     backgroundBlendMode: "soft-light",
     backgroundPosition: "center center",
-    "@media (max-width:600px)": {
-      width: "152%",
-    },
+    backgroundAttachment: "fixed",
+    /* "@media only screen and (max-width:767px)": {
+      backgroundImage: `url(${foto2})`,
+    },*/
   },
 
   img1: {

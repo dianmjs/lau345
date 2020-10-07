@@ -8,7 +8,7 @@ const Home = (props) => {
   return (
     <Grid container>
       <div className={classes.content}>
-        <Grid item xs={6} sm={6} md={6} lg={6}>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
           <div className={classes.text}>
             <Typography
               variant="h2"

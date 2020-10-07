@@ -66,7 +66,10 @@ const Header = (props) => {
                   </a>
                   <a
                     href="#products"
-                    style={{ color: "white", textDecoration: "none" }}
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                    }}
                   >
                     <Button
                       variant="text"
