@@ -1,6 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import image2 from "../img/fondo2.jpg";
-//import foto2 from "../img/fondo2.1.jpg";
+import image2 from "../img/fondo2.1.jpg";
 
 export default makeStyles((theme) => ({
   root: {
