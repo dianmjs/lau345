@@ -5,27 +5,35 @@ import Test2 from "../img/Test2.jpeg";
 import Test3 from "../img/Test3.jpeg";
 import Test4 from "../img/Test4.jpeg";
 import comillas from "../img/quote.svg";
-import { Typography } from "@material-ui/core";
+import { Typography,createMuiTheme,responsiveFontSizes,MuiThemeProvider } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 const Training = (props) => {
   const classes = useStyle();
+
+
+  let theme=createMuiTheme()
+  theme=responsiveFontSizes(theme)
+
   return (
     <div className={classes.testimonios}>
-      <Grid container>
+      <Grid container  justify="center">
         <Grid item xs={12} sm={12} md={12} lg={12}>
+          <MuiThemeProvider theme={theme}>
           <Typography
-            variant="h6"
+            variant="h3"
             align="center"
+            gutterBottom
             style={{
               color: "white",
-              fontSize: "48px",
+             fontFamily: "fantasy",
               marginTop: "37px",
               letterSpacing: "6px",
             }}
           >
             Transformando vidas
           </Typography>
+          </MuiThemeProvider>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
           <div className={classes.contetesti}>
@@ -37,13 +45,12 @@ const Training = (props) => {
             />
             <br />
             <img src={comillas} alt="comillas" className={classes.comill} />
-
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle1"
-              //className={classes.test1}
               align="center"
+              gutterBottom
               style={{
-                fontSize: "12px",
                 color: "white",
                 margin: "inherit",
               }}
@@ -53,9 +60,12 @@ const Training = (props) => {
               la vida, ha sido un punto de apoyo para crecer en varios aspectos
               y sobretodo para mejorar mi apariencia física.
             </Typography>
+            </MuiThemeProvider>
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle2"
               align="center"
+              gutterBottom
               style={{
                 color: "white",
                 fontFamily: "revert",
@@ -64,6 +74,7 @@ const Training = (props) => {
             >
               - Catalina lópez
             </Typography>
+            </MuiThemeProvider>
           </div>
         </Grid>
 
@@ -72,12 +83,12 @@ const Training = (props) => {
             <img src={Test2} alt="circulo" className={classes.circulo} />
             <br />
             <img src={comillas} alt="comilla" className={classes.comill} />
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle1"
               color="initial"
-              //className={classes.test1}
+              gutterBottom
               style={{
-                fontSize: "12px",
                 color: "white",
                 margin: "inherit",
               }}
@@ -89,13 +100,17 @@ const Training = (props) => {
               ser constante y disciplinada, al día de hoy gozo de un mejor
               estado de salud, más vitalidad y con mucho amor propio.
             </Typography>
+            </MuiThemeProvider>
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle2"
               align="center"
+              gutterBottom
               style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Paula Alzate
             </Typography>
+            </MuiThemeProvider>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
@@ -104,12 +119,14 @@ const Training = (props) => {
 
             <br />
             <img src={comillas} alt="comillas" className={classes.comill} />
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle1"
               color="initial"
+              gutterBottom
               // className={classes.test1}
               style={{
-                fontSize: "12px",
+                //fontSize: "12px",
                 color: "white",
                 margin: "inherit",
               }}
@@ -119,13 +136,17 @@ const Training = (props) => {
               aparte de tener todo el conocimiento te suman energía para lograr
               tus metas. Entrenamientos que te dan resultados gigantes.
             </Typography>
+            </MuiThemeProvider>
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle2"
               align="center"
+              gutterBottom
               style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Alejandro Suárez
             </Typography>
+            </MuiThemeProvider>
           </div>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={3}>
@@ -134,11 +155,12 @@ const Training = (props) => {
 
             <br />
             <img src={comillas} alt="comillas" className={classes.comill} />
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle1"
-              //className={classes.test1}
+              gutterBottom
               style={{
-                fontSize: "12px",
+ 
                 color: "white",
                 margin: "inherit",
               }}
@@ -149,13 +171,17 @@ const Training = (props) => {
               realizar tus ejercicios y sobre todo que hace que tus expectativas
               si se cumplan si sigues su orientación.
             </Typography>
+            </MuiThemeProvider>
+            <MuiThemeProvider theme={theme}>
             <Typography
               variant="subtitle2"
               align="center"
+              gutterBottom
               style={{ color: "white", fontFamily: "revert", margin: "26px" }}
             >
               - Guido Herrera
             </Typography>
+            </MuiThemeProvider>
           </div>
         </Grid>
       </Grid>

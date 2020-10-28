@@ -5,16 +5,19 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import { Hidden, Typography } from "@material-ui/core";
+import { Hidden, Typography,createMuiTheme,responsiveFontSizes,MuiThemeProvider } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 
 const Header = (props) => {
   const classes = useStyle();
 
+  let theme=createMuiTheme()
+  theme=responsiveFontSizes(theme)
+
   return (
     <Grid container>
-      <Grid item xs={12} sm={12} md={12}>
         <div className={classes.root}>
+      <Grid item xs={12} sm={12} md={12} lg={12}>
           <AppBar
             className={classes.appBar}
             style={{ backgroundColor: "#0000004f", boxShadow: "0 0 black" }}
@@ -30,9 +33,11 @@ const Header = (props) => {
                 >
                   <MenuIcon />
                 </IconButton>
+                <MuiThemeProvider theme={theme}>
                 <Typography variant="h6" className={classes.title}>
                   LauTrainer
                 </Typography>
+                </MuiThemeProvider>
               </Hidden>
               <Hidden only="xs">
                 <Typography variant="h6" className={classes.title}>
@@ -83,8 +88,9 @@ const Header = (props) => {
               </Hidden>
             </Toolbar>
           </AppBar>
-        </div>
+       
       </Grid>
+      </div>
     </Grid>
   );
 };

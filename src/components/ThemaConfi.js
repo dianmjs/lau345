@@ -45,17 +45,21 @@ export default makeStyles((theme) => ({
   },
 
   content: {
+    //padding:"100%",
     width: "100%",
     height: "97vh",
     backgroundImage: `url(${image2})`,
     backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
+    backgroundRepeat: "no-repeat center cencer fixed",
     backgroundColor: "rgb(100,100,100)",
     backgroundBlendMode: "soft-light",
     backgroundPosition: "center center",
     backgroundAttachment: "fixed",
-    "@media only screen and (max-width:767px)": {
+    /*"@media only screen and (max-width:767px)": {
       width: "152%",
+    },*/
+    [theme.breakpoints.down('sm')]: {
+     width:"auto"
     },
   },
 
@@ -72,11 +76,14 @@ export default makeStyles((theme) => ({
     display: "flex",
     padding: "150px",
     flexDirection: "column",
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "12px",
-    },
+    [theme.breakpoints.down('sm')]: {
+      padding: "227px 43px",
+     },
   },
-
+  produtitle:{
+    padding: "3px",
+    display: "flow-root",
+  },
   textlau: {
     [theme.breakpoints.down("xs")]: {
       fontSize: "11px",
@@ -97,18 +104,20 @@ export default makeStyles((theme) => ({
     display: "grid",
     color: "white",
 
-    "@media (max-width:768px)": {
-      padding: "154px 0px",
+    [theme.breakpoints.down('sm')]: {
       width: "33px",
-    },
+      padding: "154px 0px",
+      position: "absolute",
+      display: "grid",
+     },
   },
   products: {
     width: "100%",
     display: "flex",
     textAlign: "center",
     backgroundColor: "#f6f6f6",
-    "@media (max-width:600px)": {
-      width: "152%",
+    [theme.breakpoints.down('sm')]: {
+     width:"auto",
     },
   },
   cardproduct: {
@@ -147,14 +156,21 @@ export default makeStyles((theme) => ({
   },
   testimonios: {
     backgroundColor: "#f34e3a",
+    backgroundRepeat: "no-repeat center cencer fixed",
+    backgroundSize: "cover",
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center center",
     width: "100%",
     height: "100%",
     display: "flex",
     textAlign: "center",
     //padding: "120px 0",
-    "@media (max-width:600px)": {
+   /* "@media (max-width:600px)": {
       width: "152%",
-    },
+    },*/
+    [theme.breakpoints.down('sm')]: {
+      width:"auto"
+     },
   },
   large: {
     margin: theme.spacing(1),
