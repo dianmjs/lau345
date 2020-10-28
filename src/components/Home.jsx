@@ -29,7 +29,7 @@ theme=responsiveFontSizes(theme)
               <Typography
                 variant="h6"
                 className={classes.parraf}
-                //style={{ fontSize: "24px" }}
+       
               >
                 Inspirando y transformando vidas.
               </Typography>
@@ -42,7 +42,7 @@ theme=responsiveFontSizes(theme)
                   style={{
                     fontFamily: "fantasy",
                     letterSpacing: "6px",
-                    //fontSize: "26px",
+              
                     alignItems: "center",
                     justifyContent: "center",
                     display: "flex",

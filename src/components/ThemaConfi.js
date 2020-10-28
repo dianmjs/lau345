@@ -45,7 +45,7 @@ export default makeStyles((theme) => ({
   },
 
   content: {
-    //padding:"100%",
+
     width: "100%",
     height: "97vh",
     backgroundImage: `url(${image2})`,
@@ -55,9 +55,6 @@ export default makeStyles((theme) => ({
     backgroundBlendMode: "soft-light",
     backgroundPosition: "center center",
     backgroundAttachment: "fixed",
-    /*"@media only screen and (max-width:767px)": {
-      width: "152%",
-    },*/
     [theme.breakpoints.down('sm')]: {
      width:"auto"
     },
@@ -164,10 +161,7 @@ export default makeStyles((theme) => ({
     height: "100%",
     display: "flex",
     textAlign: "center",
-    //padding: "120px 0",
-   /* "@media (max-width:600px)": {
-      width: "152%",
-    },*/
+  
     [theme.breakpoints.down('sm')]: {
       width:"auto"
      },
@@ -188,9 +182,7 @@ export default makeStyles((theme) => ({
     position: "relative",
     margin: "31px",
     width: "40%",
-    /*["@media (max-width: 600px)"]: {
-      padding: "0 135px",
-    },*/
+  
   },
 
   circulo: {
@@ -202,10 +194,7 @@ export default makeStyles((theme) => ({
     marginTop: "19px",
     border: "4px solid white",
 
-    /*["@media (max-width: 599px)"]: {
-      width: "150px",
-      height: "150px",
-    },*/
+  
   },
   divider: {
     width: "40%",

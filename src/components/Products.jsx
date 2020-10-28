@@ -22,19 +22,20 @@ const Products = (props) => {
   return (
     <div className={classes.products}>
       <Grid container>
-        <Grid item xs={12} sm={12} md={12}>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
           <div className={classes.produtitle}>
           <MuiThemeProvider theme={theme}>
           <Typography
             variant="h3"
             color="initial"
             align="center"
+            gutterBottom
             style={{
               color: "black",
               fontFamily: "fantasy",
               marginTop: "7px",
               letterSpacing: "6px",
-              //padding: "18px",
+         
             }}
           >
             Suplementación Inteligente

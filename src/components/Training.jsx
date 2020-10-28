@@ -56,7 +56,7 @@ const Training = (props) => {
               }}
             >
               Hace unos meses atrás me presentaron a Laura cómo entrenadora, una
-              mujer que respeto, y me ha guiado en este trasegar que me presenta
+              mujer que respeto y me ha guiado en este trasegar que me presenta
               la vida, ha sido un punto de apoyo para crecer en varios aspectos
               y sobretodo para mejorar mi apariencia física.
             </Typography>
@@ -124,9 +124,7 @@ const Training = (props) => {
               variant="subtitle1"
               color="initial"
               gutterBottom
-              // className={classes.test1}
               style={{
-                //fontSize: "12px",
                 color: "white",
                 margin: "inherit",
               }}
